@@ -1,4 +1,4 @@
-name: React Application Pages
+name: React-Application-Pages
 on: 
     push:
         branches:
@@ -42,7 +42,7 @@ jobs:
               uses: actions/upload-pages-artifact@v3
               with:
                   name: github-pages
-                  path: distination                      
+                  path: dist               
     deploy:
         needs: build
         runs-on:  ubuntu-latest
