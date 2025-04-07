@@ -1,4 +1,4 @@
-name: React-Application-Pages
+name: DeployReactApp
 on: 
     push:
         branches:
